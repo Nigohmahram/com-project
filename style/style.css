@@ -21,7 +21,7 @@ body {
      margin: 0;
      flex-direction: column;
      background-color: #fff;
-     color: #222;
+     color: #aaa;
      font-family: "Arial" sans-serif;
      font-size: 16px;
      line-height: 1.5;
@@ -81,6 +81,51 @@ select:-webkit-autofill:focus {
 .main-content {
      flex-grow: 1;
 }
+.bg-light{
+     background-color: #685c5c!important;
+}
+.navbar-nav .nav-item .nav-link{
+     color: white;
+}
+.navbar-nav .nav-item .nav-link:hover{
+     color: #aaa;
+     opacity: 0.6;
+}
+.navbar-light .navbar-toggler-icon{
+     color: #fff;
+}
+.carousel-control-next-icon {
+     background-image: none;
+ }
+ .carousel-control-next-icon{
+     background-image:none;
+ }
+ /* .carousel-indicators li{
+     background-color: #685c5c;
+ } */
+ section .box-1{
+     background-color: #ebe7e7;
+     text-align: center;
+     padding: 35px 0;
+     margin-top: 80px;
+     border-radius: 10px;
+ }
+
+section .box{
+     background: #ebe7e7;
+     text-align: center;
+     margin-top: 80px;
+     border-radius: 20px;
+}
+section .box img{
+     width: 100%;
+ }
+ section .box h2{
+     font-size: 24px;
+     color: #000339;
+     margin-top: 30px;
+ }
+
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
